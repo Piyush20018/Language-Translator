@@ -1,0 +1,336 @@
+[2024-11-25 07:07:58] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php:45)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-26 12:23:10] local.ERROR: Call to undefined method App\Http\Controllers\TranslationController::translate() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Http\\Controllers\\TranslationController::translate() at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(264): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TranslationController), 'translate')
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(210): Illuminate\\Routing\\Route->runController()
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#4 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#42 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#43 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#44 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#46 {main}
+"} 
+[2024-11-26 12:23:11] local.ERROR: Call to undefined method App\Http\Controllers\TranslationController::translate() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Http\\Controllers\\TranslationController::translate() at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(264): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TranslationController), 'translate')
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(210): Illuminate\\Routing\\Route->runController()
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#4 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#42 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#43 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#44 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#46 {main}
+"} 
+[2024-11-26 12:23:13] local.ERROR: Call to undefined method App\Http\Controllers\TranslationController::translate() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Http\\Controllers\\TranslationController::translate() at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(264): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TranslationController), 'translate')
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(210): Illuminate\\Routing\\Route->runController()
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#4 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#42 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#43 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#44 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#46 {main}
+"} 
+[2024-11-27 07:04:35] local.INFO: Translation Debug: Input: 'sae', Source: en, Target: hi, Translated: 'एसएई'  
+[2024-11-27 07:04:36] local.WARNING: Mismatch: Input 'sae' did not match Output 'एसएई'  
+[2024-11-27 07:04:36] local.WARNING: Mismatch: Input 'sar' did not match Output 'एसएआर'  
+[2024-11-27 07:04:36] local.WARNING: Mismatch: Input 'sara' did not match Output 'सारा'  
+[2024-11-27 07:04:37] local.WARNING: Mismatch: Input 'sara work' did not match Output 'सारा काम'  
+[2024-11-27 07:04:41] local.INFO: Translation Debug: Input: 'sara work time se', Source: en, Target: hi, Translated: 'सारा कार्य समय से'  
+[2024-11-27 07:04:41] local.WARNING: Mismatch: Input 'sara work time se' did not match Output 'सारा कार्य समय से'  
+[2024-11-27 07:04:42] local.INFO: Translation Debug: Input: 'sara work time se com', Source: en, Target: hi, Translated: 'सारा काम के समय से कॉम'  
+[2024-11-27 07:04:42] local.WARNING: Mismatch: Input 'sara work time se com' did not match Output 'सारा काम के समय से कॉम'  
+[2024-11-27 07:04:43] local.INFO: Translation Debug: Input: 'sara work time se co', Source: en, Target: hi, Translated: 'सारा कार्य समय से सह'  
+[2024-11-27 07:04:43] local.WARNING: Mismatch: Input 'sara work time se co' did not match Output 'सारा कार्य समय से सह'  
+[2024-11-27 07:04:45] local.INFO: Translation Debug: Input: 'sara work time se complt', Source: en, Target: hi, Translated: 'सारा कार्य समय से पूर्ण'  
+[2024-11-27 07:04:45] local.WARNING: Mismatch: Input 'sara work time se complt' did not match Output 'सारा कार्य समय से पूर्ण'  
+[2024-11-27 07:04:46] local.INFO: Translation Debug: Input: 'sara work time se complte', Source: en, Target: hi, Translated: 'सारा काम का समय पूरा करें'  
+[2024-11-27 07:04:46] local.WARNING: Mismatch: Input 'sara work time se complte' did not match Output 'सारा काम का समय पूरा करें'  
+[2024-11-27 07:04:48] local.INFO: Translation Debug: Input: 'sara work time se comp', Source: en, Target: hi, Translated: 'सारा कार्य समय से कॉम्प'  
+[2024-11-27 07:04:48] local.WARNING: Mismatch: Input 'sara work time se comp' did not match Output 'सारा कार्य समय से कॉम्प'  
+[2024-11-27 07:04:48] local.WARNING: Mismatch: Input 'sara work time se comp' did not match Output 'सारा कार्य समय से कॉम्प'  
+[2024-11-27 07:04:50] local.INFO: Translation Debug: Input: 'sara work time se complete', Source: en, Target: hi, Translated: 'सारा काम का समय पूरा हो गया'  
+[2024-11-27 07:04:50] local.WARNING: Mismatch: Input 'sara work time se complete' did not match Output 'सारा काम का समय पूरा हो गया'  
+[2024-11-27 07:04:55] local.INFO: Translation Debug: Input: 'sara work time se complete ho jana', Source: en, Target: hi, Translated: 'सारा काम समय से पूरा हो जाना'  
+[2024-11-27 07:04:55] local.WARNING: Mismatch: Input 'sara work time se complete ho jana' did not match Output 'सारा काम समय से पूरा हो जाना'  
+[2024-11-27 07:04:56] local.INFO: Translation Debug: Input: 'sara work time se complete ho jana cha', Source: en, Target: hi, Translated: 'सारा काम समय से पूरा हो जाना चा'  
+[2024-11-27 07:04:56] local.WARNING: Mismatch: Input 'sara work time se complete ho jana cha' did not match Output 'सारा काम समय से पूरा हो जाना चा'  
+[2024-11-27 07:04:57] local.INFO: Translation Debug: Input: 'sara work time se complete ho jana chaiye', Source: en, Target: hi, Translated: 'सारा काम समय से पूरा हो जाना चाहिए'  
+[2024-11-27 07:04:57] local.WARNING: Mismatch: Input 'sara work time se complete ho jana chaiye' did not match Output 'सारा काम समय से पूरा हो जाना चाहिए'  
+[2024-11-27 07:14:13] local.ERROR: include(C:\xampp\htdocs\Projects\translator\vendor\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): include('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\xampp\\\\htdocs...')
+#4 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1115): is_a('App\\\\Http\\\\Contro...', 'Illuminate\\\\Rout...', true)
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1052): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(820): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(802): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#36 {main}
+"} 
+[2024-11-27 07:16:26] local.ERROR: include(C:\xampp\htdocs\Projects\translator\vendor\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): include('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\xampp\\\\htdocs...')
+#4 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1115): is_a('App\\\\Http\\\\Contro...', 'Illuminate\\\\Rout...', true)
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1052): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(820): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(802): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#36 {main}
+"} 
+[2024-11-27 07:16:31] local.ERROR: include(C:\xampp\htdocs\Projects\translator\vendor\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer/../../app/Http/Controllers/TranslationController.php): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#1 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'include(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 576)
+#2 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(576): include('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\xampp\\\\htdocs...')
+#4 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#5 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1115): is_a('App\\\\Http\\\\Contro...', 'Illuminate\\\\Rout...', true)
+#6 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1052): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(820): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(802): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#32 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp\\htdocs\\Projects\\translator\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Projects\\translator\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\xampp\\\\htdocs...')
+#36 {main}
+"} 
+[2024-11-27 08:42:40] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:43:42] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:43:43] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:44:01] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:44:46] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:46:18] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:46:39] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:46:41] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-27 08:47:45] local.ERROR: Cannot declare class App\Http\Controllers\TranslationController, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Http\\Controllers\\TranslationController, because the name is already in use at C:\\xampp\\htdocs\\Projects\\translator\\storage\\framework\\views\\18da2b91f24b0d65e2de86de3280dc83.php:9)
+[stacktrace]
+#0 {main}
+"} 
