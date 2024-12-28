@@ -1,2 +1,2 @@
 # Language_Translator
-A robust language translator application built with PHP and Laravel. This project enables seamless text translation between multiple languages, utilizing advanced APIs for accurate and efficient translation. Ideal for creating multilingual websites or applications.
+Developed a language translator application using the PHP Laravel framework, enabling real-time text translation across multiple languages. Integrated third-party APIs for accurate translations and implemented a user-friendly interface for seamless interaction. Optimized performance through efficient database queries and caching techniques, ensuring fast and reliable results. Focused on scalability, security, and maintaining clean, modular code.
